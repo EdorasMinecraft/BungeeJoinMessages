@@ -37,6 +37,10 @@ public class PlayerListener implements Listener {
 
     @EventHandler
     public void onServerSwitch(ServerSwitchEvent event){
+        if(event.getFrom() == null) {
+            return;
+        }
+
         boolean isInvisible = BungeeVanishAPI.isInvisible(event.getPlayer());
         String message = plugin.config.getString("server-switch-message")
                 .replace("{player}", event.getPlayer().getName())
