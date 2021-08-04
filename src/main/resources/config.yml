@@ -1,0 +1,14 @@
+join-message: "&3¡Oh! &7{player} se ha conectado :D"
+leave-message: "&3Vaya... &7{player} se ha desconectado ¡Hasta luego!"
+server-switch-message: "&f[&6✎&f] &e{player}&f: &7{oldserver} → {newserver}"
+silent-tag: "&f[&7Silent&f] "
+
+permissions:
+  messages:
+    join: ""
+    leave: ""
+    switch: ""
+  silent-messages:
+    join: "bungeejoinmessages.silent.join"
+    leave: "bungeejoinmessages.silent.leave"
+    switch: "bungeejoinmessages.silent.switch"

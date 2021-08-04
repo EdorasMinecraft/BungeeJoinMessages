@@ -1,0 +1,4 @@
+name: BungeeJoinMessages
+version: ${project.version}
+main: com.kikisito.bungeejoinmessages.Main
+description: Show join messages when a player joins or leaves the network
